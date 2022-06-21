@@ -1,6 +1,6 @@
 {
-  "name": "example-typescript-package",
-  "version": "0.2.2",
+  "name": "smart-contract-linear-vesting",
+  "version": "0.2.15",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -42,15 +42,18 @@
   ],
   "author": "Tom Chen <tomchen.org@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/tomchen/example-typescript-package",
+  "homepage": "https://github.com/alan-dandelionlabs/smart-contract-linear-vesting",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tomchen/example-typescript-package.git"
+    "url": "git@github.com:alan-dandelionlabs/smart-contract-linear-vesting.git"
   },
   "bugs": {
-    "url": "https://github.com/tomchen/example-typescript-package/issues"
+    "url": "https://github.com/alan-dandelionlabs/smart-contract-linear-vesting/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "ethers": "^5.6.9"
+  },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
