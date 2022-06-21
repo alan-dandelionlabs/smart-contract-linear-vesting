@@ -1,6 +1,6 @@
 {
   "name": "smart-contract-linear-vesting",
-  "version": "0.2.15",
+  "version": "0.2.18",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
